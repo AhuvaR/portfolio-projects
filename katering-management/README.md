@@ -10,7 +10,6 @@ A SQL Server project managing catering business operations including inventory, 
 
 ## 💪 Tech Stack
 - SQL Server
-- T-SQL
 
 ## ▶️ How to Run
 - Open the `.sql` scripts in SQL Server Management Studio (SSMS)
