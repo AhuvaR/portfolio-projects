@@ -1,4 +1,4 @@
-# 🎓 Software Developer Portfolio Projects
+# 🎓 Portfolio Projects:
 
 Hello, I'm Ahuva, a passionate junior software developer eager to solve real-world problems through code. This repository contains a curated collection of projects that showcase my skills in web development, backend systems, database design, and software architecture.
 
