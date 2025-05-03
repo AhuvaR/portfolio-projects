@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="./game.css">
+   
+</head>
+<body onload="getUserName()">
+  <div id="top" class="trHeader"><h3>שלום ל</h3></div>
+ <div id="almostBody">
+  <div id="buttond">
+<div class="droptarget" id="pink" ondrop="dropit(event)" ondragover="allowDrop(event)"><h4 class="h" style="color: pink;">pink</h4>
+    <span class="dot" id="p" ondragstart="dragStart(event)" ondragend="dragEnd(event)" draggable="true" id="dragtarget" data-color="pink"></span>
+  <!-- <p ondragstart="dragStart(event)" ondragend="dragEnd(event)" draggable="true" id="dragtarget">Drag me!</p> -->
+</div>
+<div class="droptarget" id="yellow" ondrop="dropit(event)" ondragover="allowDrop(event)"><h5 class="h" style="color: yellow;">yellow</h5>
+    <span class="dot" id="y" ondragstart="dragStart(event)" ondragend="dragEnd(event)" draggable="true" id="dragtarget" data-color="yellow"></span>
+  </div>
+  <div class="droptarget" id="orange" ondrop="dropit(event)" ondragover="allowDrop(event)"><h5 class="h" style="color: orange;" >orange</h5>
+    <span class="dot" id="o" ondragstart="dragStart(event)" ondragend="dragEnd(event)" draggable="true" id="dragtarget" data-color="orange"></span>
+  </div>
+  <div class="droptarget" id="green" ondrop="dropit(event)" ondragover="allowDrop(event)"><h4 class="h" style="color: green;" data-color="green">green</h4>
+    <span class="dot" id="g" ondragstart="dragStart(event)" ondragend="dragEnd(event)" draggable="true" id="dragtarget" data-color="green"></span>
+  </div>
+  <div class="droptarget" id="red" ondrop="dropit(event)" ondragover="allowDrop(event)"><h4 class="h" style="color: red;">red</h4>
+    <span class="dot" id="r" ondragstart="dragStart(event)" ondragend="dragEnd(event)" draggable="true" id="dragtarget" data-color="red"></span>
+  </div>
+  <div class="droptarget" id="blue" ondrop="dropit(event)" ondragover="allowDrop(event)"><h4 class="h" style="color: blue;">blue</h4>
+    <span class="dot" id="b" ondragstart="dragStart(event)" ondragend="dragEnd(event)" draggable="true" id="dragtarget" data-color="blue"></span>
+  </div>
+  <div class="droptarget" id="bisque" ondrop="dropit(event)" ondragover="allowDrop(event)"><h4 class="h" style="color: bisque;">white</h4>
+    <span class="dot" id="w" ondragstart="dragStart(event)" ondragend="dragEnd(event)" draggable="true" id="dragtarget" data-color="bisque"></span>
+  </div>
+  <div class="droptarget" id="purple" ondrop="dropit(event)" ondragover="allowDrop(event)"><h5 class="h" style="color: purple;">purple</h5>
+    <span class="dot" id="u" ondragstart="dragStart(event)" ondragend="dragEnd(event)" draggable="true" id="dragtarget" data-color="purple"></span>
+  </div>
+<p id="demo"></p>
+</div>
+
+<div id="bigd" >
+
+  <div class="sd" id="bd1">
+<div class="thedroptarget"  id="d1" ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
+<div class="thedroptarget" id="d2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div class="thedroptarget" id="d3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div class="thedroptarget" id="d4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<button class="bu" onclick="check(bd1)" ></button>
+  </div>
+<div class="sd" id="bd2" >
+    <div class="thedroptarget" id="d5" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+    <div class="thedroptarget" id="d6" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+    <div class="thedroptarget" id="d7" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+    <div class="thedroptarget" id="d8" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+    <button class="bu" onclick="check(bd2)" hidden></button>
+</div>
+
+  <div class="sd" id="bd3" hidden>
+     <div class="thedroptarget" id="d9" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+     <div class="thedroptarget" id="d10" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+     <div class="thedroptarget" id="d11" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+     <div class="thedroptarget" id="d12" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+     <button class="bu" onclick="check(bd3)" hidden></button>
+
+   </div>
+     <div class="sd" id="bd4" hidden>
+        <div class="thedroptarget" id="d13" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+        <div class="thedroptarget" id="d14" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+        <div class="thedroptarget" id="d15" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+        <div class="thedroptarget" id="d16" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+        <button class="bu" onclick="check(bd4)" hidden></button>
+
+    </div>
+
+    <div class="sd" id="bd5" hidden>
+      <div class="thedroptarget" id="d17" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+      <div class="thedroptarget" id="d18" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+      <div class="thedroptarget" id="d19" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+      <div class="thedroptarget" id="d20" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+      <button class="bu" onclick="check(bd5)" hidden></button>
+
+  </div>
+
+  <div class="sd" id="bd6" hidden>
+    <div class="thedroptarget" id="d21" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+    <div class="thedroptarget" id="d22" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+    <div class="thedroptarget" id="d23" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+    <div class="thedroptarget" id="d24" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+    <button class="bu" onclick="check(bd6)" hidden></button>
+
+</div>
+
+<div class="sd" id="bd7" hidden>
+  <div class="thedroptarget" id="d25" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+  <div class="thedroptarget" id="d26" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+  <div class="thedroptarget" id="d27" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+  <div class="thedroptarget" id="d28" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+  <button class="bu" onclick="check(bd7)" hidden></button>
+
+</div>
+
+<div class="sd" id="bd8" hidden>
+  <div class="thedroptarget" id="d29" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+  <div class="thedroptarget" id="d30" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+  <div class="thedroptarget" id="d31" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+  <div class="thedroptarget" id="d32" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+  <button class="bu" onclick="check(bd8)" hidden></button>
+
+</div>
+
+<div class="sd" id="bd9" hidden>
+  <div class="thedroptarget" id="d33" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+  <div class="thedroptarget" id="d34" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+  <div class="thedroptarget" id="d35" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+  <div class="thedroptarget" id="d36" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+  <button class="bu" onclick="check(bd9)" hidden></button>
+
+</div>
+
+<div class="sd" id="bd10" hidden>
+  <div class="thedroptarget" id="d37" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+  <div class="thedroptarget" id="d38" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+  <div class="thedroptarget" id="d39" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+  <div class="thedroptarget" id="d40" ondrop="drop(event)" ondragover="allowDrop(event)" hidden></div>
+  <button class="bu" onclick="check(bd10)" hidden></button>
+
+</div>
+</div>
+<div id="ans"></div>
+
+
+<div id="reChange">
+<button id="re" onclick="refresh()">Reload Game</button>
+
+<a id="bo" href="./highScors.html" onchange="yes()">שיאים</a>
+
+<select onchange="background()" id="background">
+  <option hidden>BackGround</option>
+  <option>Leaves</option>
+  <option>Grass</option>
+  <option>Colorfull</option>
+  <option>tree</option>
+</select>
+</div>
+ 
+
+<div class="trHeader" id="yo">
+  <p class="no">Intoduction<button id="os" onclick="changeFontSize()"></button></p><br>
+ <div class="la"><div class="lal" style="background-color: blue"></div><h >The color and the lokation are good</h></div><br>
+ <div class="la"><div class="lal" style="background-color: rgb(0, 0, 0)"></div><h class>The color is good and the lokation is not</h></div>
+</div>
+</div>
+<!-- Change Letters Size -->
+
+<script src="./game.js"></script>
+
+
+</body>
+</html>

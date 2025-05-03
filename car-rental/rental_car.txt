@@ -1,0 +1,168 @@
+[
+  {
+    "_id": 1,
+    "car_id": 1,
+    "customer_id": 5,
+    "beginning_of_rental_period": "2022-05-01",
+    "end_of_rental_period": "2022-05-05"
+  },
+  {
+    "_id": 2,
+    "car_id": 2,
+    "customer_id": 12,
+    "beginning_of_rental_period": "2022-06-10",
+    "end_of_rental_period": "2022-06-15"
+  },
+  {
+    "_id": 3,
+    "car_id": 3,
+    "customer_id": 9,
+    "beginning_of_rental_period": "2022-07-20",
+    "end_of_rental_period": "2022-07-25"
+  },
+  {
+    "_id": 4,
+    "car_id": 4,
+    "customer_id": 2,
+    "beginning_of_rental_period": "2022-08-05",
+    "end_of_rental_period": "2022-08-10"
+  },
+  {
+    "_id": 5,
+    "car_id": 5,
+    "customer_id": 18,
+    "beginning_of_rental_period": "2022-09-15",
+    "end_of_rental_period": "2022-09-20"
+  },
+  {
+    "_id": 6,
+    "car_id":15,
+    "customer_id": 14,
+    "beginning_of_rental_period": "2022-10-25",
+    "end_of_rental_period": "2022-10-30"
+  },
+  {
+    "_id": 7,
+    "car_id": 14,
+    "customer_id": 20,
+    "beginning_of_rental_period": "2022-11-10",
+    "end_of_rental_period": "2022-11-15"
+  },
+  {
+    "_id": 8,
+    "car_id": 13,
+    "customer_id": 6,
+    "beginning_of_rental_period": "2022-12-20",
+    "end_of_rental_period": "2022-12-25"
+  },
+  {
+    "_id": 9,
+    "car_id": 12,
+    "customer_id": 10,
+    "beginning_of_rental_period": "2023-01-05",
+    "end_of_rental_period": "2023-01-10"
+  },
+  {
+    "_id": 10,
+    "car_id": 11,
+    "customer_id": 17,
+    "beginning_of_rental_period": "2023-02-15",
+    "end_of_rental_period": "2023-02-20"
+  },
+  {
+    "_id": 10,
+    "car_id": 10,
+    "customer_id": 1,
+    "beginning_of_rental_period": "2023-03-25",
+    "end_of_rental_period": "2023-03-30"
+  },
+  {
+    "_id": 12,
+    "car_id": 9,
+    "customer_id": 11,
+    "beginning_of_rental_period": "2023-04-10",
+    "end_of_rental_period": "2023-04-15"
+  },
+  {
+    "_id": 13,
+    "car_id": 8,
+    "customer_id": 23,
+    "beginning_of_rental_period": "2023-05-20",
+    "end_of_rental_period": "2023-05-25"
+  },
+  {
+    "_id": 14,
+    "car_id": 8,
+    "customer_id": 15,
+    "beginning_of_rental_period": "2023-06-30",
+    "end_of_rental_period": "2023-07-05"
+  },
+  {
+    "_id": 15,
+    "car_id": 8,
+    "customer_id": 21,
+    "beginning_of_rental_period": "2023-08-10",
+    "end_of_rental_period": "2023-08-15"
+  },
+  {
+    "_id": 16,
+    "car_id": 15,
+    "customer_id": 8,
+    "beginning_of_rental_period": "2023-09-20",
+    "end_of_rental_period": "2023-09-25"
+  },
+  {
+    "_id": 17,
+    "car_id": 1,
+    "customer_id": 19,
+    "beginning_of_rental_period": "2023-10-30",
+    "end_of_rental_period": "2023-11-04"
+  },
+  {
+    "_id": 18,
+    "car_id": 3,
+    "customer_id": 22,
+    "beginning_of_rental_period": "2023-12-05",
+    "end_of_rental_period": "2023-12-10"
+  },
+  {
+    "_id": 19,
+    "car_id":3,
+    "customer_id": 7,
+    "beginning_of_rental_period": "2024-01-15",
+    "end_of_rental_period": "2024-01-20"
+  },
+  {
+    "_id": 20,
+    "car_id": 4,
+    "customer_id": 4,
+    "beginning_of_rental_period": "2024-02-25",
+    "end_of_rental_period": "2024-03-01"
+  },
+  {
+    "_id": 9,
+    "car_id": 789,
+    "customer_id": 16,
+    "beginning_of_rental_period": "2024-04-10",
+    "end_of_rental_period": "2024-04-15"
+  },
+  {
+    "_id": 22,
+    "car_id": 10,
+    "customer_id": 20,
+    "beginning_of_rental_period": "2024-05-20",
+    "end_of_rental_period": "2024-05-25"
+  },
+  {
+    "_id": 23,
+    "car_id": 7,
+    "customer_id": 3,
+    "beginning_of_rental_period": "2024-06-30",
+    "end_of_rental_period": "2024-07-05"
+  },
+  {
+    "_id": 24,
+    "car_id": 9,
+    "customer_id": 13,
+    "beginning_of_rental_period": "2024-08-10",
+    "end_of_rental_period": "2024-08-15

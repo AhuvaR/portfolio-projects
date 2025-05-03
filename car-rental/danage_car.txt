@@ -1,0 +1,141 @@
+[
+  {
+    "car_id": 1,
+    "customer": 5,
+    "car_damage": "Scratch on the left door",
+    "cost_of_repair": 500
+  },
+  {
+    "car_id": 2,
+    "customer": 12,
+    "car_damage": "Dent on the hood",
+    "cost_of_repair": 1000
+  },
+  {
+    "car_id": 3,
+    "customer": 9,
+    "car_damage": "Cracked windshield",
+    "cost_of_repair": 800
+  },
+  {
+    "car_id": 4,
+    "customer": 2,
+    "car_damage": "Broken taillight",
+    "cost_of_repair": 400
+  },
+  {
+    "car_id": 5,
+    "customer": 18,
+    "car_damage": "Scratch on the right fender",
+    "cost_of_repair": 600
+  },
+  {
+    "car_id": 6,
+    "customer": 14,
+    "car_damage": "Dent on the rear bumper",
+    "cost_of_repair": 900
+  },
+  {
+    "car_id": 7,
+    "customer": 20,
+    "car_damage": "Broken side mirror",
+    "cost_of_repair": 300
+  },
+  {
+    "car_id": 8,
+    "customer": 6,
+    "car_damage": "Scratch on the hood",
+    "cost_of_repair": 500
+  },
+  {
+    "car_id": 9,
+    "customer": 10,
+    "car_damage": "Dent on the left fender",
+    "cost_of_repair": 700
+  },
+  {
+    "car_id": 10,
+    "customer": 17,
+    "car_damage": "Scratch on the rear bumper",
+    "cost_of_repair": 600
+  },
+  {
+    "car_id": 11,
+    "customer": 1,
+    "car_damage": "Cracked windshield",
+    "cost_of_repair": 800
+  },
+  {
+    "car_id": 12,
+    "customer": 11,
+    "car_damage": "Dent on the right door",
+    "cost_of_repair": 600
+  },
+  {
+    "car_id": 13,
+    "customer": 4,
+    "car_damage": "Scratch on the left fender",
+    "cost_of_repair": 500
+  },
+  {
+    "car_id": 14,
+    "customer": 15,
+    "car_damage": "Dent on the hood",
+    "cost_of_repair": 1000
+  },
+  {
+    "car_id": 15,
+    "customer": 21,
+    "car_damage": "Scratch on the right door",
+    "cost_of_repair": 500
+  },
+  {
+    "car_id": 1,
+    "customer": 8,
+    "car_damage": "Dent on the rear bumper",
+    "cost_of_repair": 900
+  },
+  {
+    "car_id": 1,
+    "customer": 8,
+    "car_damage": "Scratch on the hood",
+    "cost_of_repair": 500
+  },
+  {
+    "car_id": 5,
+    "customer": 20,
+    "car_damage": "Dent on the left door",
+    "cost_of_repair": 600
+  },
+  {
+    "car_id": 10,
+    "customer": 7,
+    "car_damage": "Scratch on the right fender",
+    "cost_of_repair": 600
+  },
+  {
+    "car_id":13,
+    "customer": 4,
+    "car_damage": "Dent on the rear bumper",
+    "cost_of_repair": 900
+  },
+
+  {
+    "car_id": 13,
+    "customer": 3,
+    "car_damage": "Dent on the rear bumper",
+    "cost_of_repair": 600
+  },
+  {
+    "car_id": 4,
+    "customer": 13,
+    "car_damage": "Broken taillight",
+    "cost_of_repair": 400
+  },
+  {
+    "car_id": 5,
+    "customer": 18,
+    "car_damage": "Dent on the left door",
+    "cost_of_repair": 700
+  }
+]

@@ -1,0 +1,195 @@
+[
+  {
+    "car_id": 1,
+    "manufacturer": "Toyota",
+    "model": "Corolla",
+    "year_of_produce": 2020,
+    "car_detail": {
+      "Engine": "1.8L 4-cylinder",
+      "kilometer": 10000.0,
+      "car_type": "automatic"
+    },
+    "day_price": 50,
+    "rental_branch": "Branch A"
+  },
+  {
+    "car_id": 2,
+    "manufacturer": "Honda",
+    "model": "Civic",
+    "year_of_produce": 2019,
+    "car_detail": {
+      "Engine": "2.0L 4-cylinder",
+      "kilometer": 15000.0,
+      "car_type": "manual"
+    },
+    "day_price": 60,
+    "rental_branch": "Branch B"
+  },
+  {
+    "car_id": 3,
+    "manufacturer": "Ford",
+    "model": "Mustang",
+    "year_of_produce": 2021,
+    "car_detail": {
+      "Engine": "5.0L V8",
+      "kilometer": 5000.0,
+      "car_type": "manual"
+    },
+    "day_price": 100,
+    "rental_branch": "Branch C"
+  },
+  {
+    "car_id": 4,
+    "manufacturer": "Chevrolet",
+    "model": "Camaro",
+    "year_of_produce": 2020,
+    "car_detail": {
+      "Engine": "6.2L V8",
+      "kilometer": 12000.0,
+      "car_type": "manual"
+    },
+    "day_price": 90,
+    "rental_branch": "Branch D"
+  },
+  {
+    "car_id": 5,
+    "manufacturer": "Tesla",
+    "model": "Model S",
+    "year_of_produce": 2021,
+    "car_detail": {
+      "Engine": "Electric",
+      "kilometer": 8000.0,
+      "car_type": "electric"
+    },
+    "day_price": 120,
+    "rental_branch": "Branch I"
+  },
+  {
+    "car_id": 6,
+    "manufacturer": "BMW",
+    "model": "M4",
+    "year_of_produce": 2020,
+    "car_detail": {
+      "Engine": "3.0L inline-6",
+      "kilometer": 9000.0,
+      "car_type": "manual"
+    },
+    "day_price": 80,
+    "rental_branch": "Branch B"
+  },
+  {
+    "car_id": 7,
+    "manufacturer": "Mercedes-Benz",
+    "model": "C-Class",
+    "year_of_produce": 2019,
+    "car_detail": {
+      "Engine": "2.0L inline-4",
+      "kilometer": 20000.0,
+      "car_type": "automatic"
+    },
+    "day_price": 70,
+    "rental_branch": "Branch C"
+  },
+  {
+    "car_id": 8,
+    "manufacturer": "Audi",
+    "model": "A5",
+    "year_of_produce": 2021,
+    "car_detail": {
+      "Engine": "2.0L inline-4",
+      "kilometer": 5000.0,
+      "car_type": "automatic"
+    },
+    "day_price": 90,
+    "rental_branch": "Branch D"
+  },
+  {
+    "car_id": 9,
+    "manufacturer": "Porsche",
+    "model": "911",
+    "year_of_produce": 2020,
+    "car_detail": {
+      "Engine": "3.0L twin-turbo flat-6",
+      "kilometer": 15000.0,
+      "car_type": "manual"
+    },
+    "day_price": 150,
+    "rental_branch": "Branch A"
+  },
+  {
+    "car_id": 10,
+    "manufacturer": "Lamborghini",
+    "model": "Huracan",
+    "year_of_produce": 2021,
+    "car_detail": {
+      "Engine": "5.2L V10",
+      "kilometer": 3000.0,
+      "car_type": "automatic"
+    },
+    "day_price": 500,
+    "rental_branch": "Branch B"
+  },
+  {
+    "car_id": 11,
+    "manufacturer": "Ferrari",
+    "model": "488 GTB",
+    "year_of_produce": 2019,
+    "car_detail": {
+      "Engine": "3.9L twin-turbo V8",
+      "kilometer": 12000.0,
+      "car_type": "automatic"
+    },
+    "day_price": 400,
+    "rental_branch": "Branch C"
+  },
+  {
+    "car_id": 12,
+    "manufacturer": "Bugatti",
+    "model": "Chiron",
+    "year_of_produce": 2020,
+    "car_detail": {
+      "Engine": "8.0L quad-turbo W16",
+      "kilometer": 5000.0,
+      "car_type": "automatic"
+    },
+    "day_price": 1000,
+    "rental_branch": "Branch D"
+  },
+  {
+    "car_id": 13,
+    "manufacturer": "McLaren",
+    "model": "720S",
+    "year_of_produce": 2021,
+    "car_detail": {
+      "Engine": "4.0L twin-turbo V8",
+      "kilometer": 2000.0,
+      "car_type": "automatic"
+    },
+    "day_price": 300,
+    "rental_branch": "Branch A"
+  },
+  {
+    "car_id": 14,
+    "manufacturer": "Rolls-Royce",
+    "model": "Ghost",
+    "year_of_produce": 2020,
+    "car_detail": {
+      "Engine": "6.7L V12",
+      "kilometer": 10000.0,
+      "car_type": "automatic"
+    },
+    "day_price": 500,
+    "rental_branch": "Branch B"
+  },
+  {
+    "car_id": 15,
+    "manufacturer": "Bentley",
+    "model": "Continental GT",
+    "year_of_produce": 2021,
+    "car_detail": {
+      "Engine": "4.0L twin-turbo V8",
+      "kilometer": 5000.0,
+      "car_type": "automatic"
+    },
+    "day_price": 200,
+    "rental_branch": "Branch C"}]

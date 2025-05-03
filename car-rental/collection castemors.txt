@@ -1,0 +1,201 @@
+[
+  {
+    "customer_id": 1,
+    "tz": "123456789",
+    "full_name": "John Smith",
+    "email": "john.smith@example.com",
+    "phone_number": {
+      "first_phone": "555-1234",
+      "second_phone": "555-5678"
+    },
+    "type_of_use": "Personal"
+  },
+  {
+    "customer_id": 2,
+    "tz": "234567890",
+    "full_name": "Jane Doe",
+    "email": "jane.doe@example.com",
+    "phone_number": {
+      "first_phone": "555-9876"
+    },
+    "type_of_use": "Business"
+  },
+  {
+    "customer_id": 3,
+    "tz": "345678901",
+    "full_name": "Bob Johnson",
+    "email": "bob.johnson@example.com",
+    "phone_number": {
+      "first_phone": "555-2468",
+      "second_phone": "555-1357"
+    },
+    "type_of_use": "Personal"
+  },
+  {
+    "customer_id": 4,
+    "tz": "456789012",
+    "full_name": "Sarah Lee",
+    "email": "sarah.lee@example.com",
+    "phone_number": {
+      "first_phone": "555-3690"
+    },
+    "type_of_use": "Business"
+  },
+  {
+    "customer_id": 5,
+    "tz": "567890123",
+    "full_name": "Tom Jones",
+    "email": "tom.jones@example.com",
+    "phone_number": {
+      "first_phone": "555-7777",
+      "second_phone": "555-8888"
+    },
+    "type_of_use": "Personal"
+  },
+  {
+    "customer_id": 6,
+    "tz": "678901234",
+    "full_name": "Amy Chen",
+    "email": "amy.chen@example.com",
+    "phone_number": {
+      "first_phone": "555-4444"
+    },
+    "type_of_use": "Business"
+  },
+  {
+    "customer_id": 7,
+    "tz": "789012345",
+    "full_name": "Mark Davis",
+    "email": "mark.davis@example.com",
+    "phone_number": {
+      "first_phone": "555-2222",
+      "second_phone": "555-3333"
+    },
+    "type_of_use": "Personal"
+  },
+  {
+    "customer_id": 8,
+    "tz": "890123456",
+    "full_name": "Emily Wilson",
+    "email": "emily.wilson@example.com",
+    "phone_number": {
+      "first_phone": "555-1010"
+    },
+    "type_of_use": "Business"
+  },
+  {
+    "customer_id": 9,
+    "tz": "901234567",
+    "full_name": "David Kim",
+    "email": "david.kim@example.com",
+    "phone_number": {
+      "first_phone": "555-2020",
+      "second_phone": "555-3030"
+    },
+    "type_of_use": "Personal"
+  },
+  {
+    "customer_id": 10,
+    "tz": "012345678",
+    "full_name": "Jessica Lee",
+    "email": "jessica.lee@example.com",
+    "phone_number": {
+      "first_phone": "555-5050"
+    },
+    "type_of_use": "Business"
+  },
+  {
+    "customer_id": 11,
+    "tz": "123450987",
+    "full_name": "Michael Brown",
+    "email": "michael.brown@example.com",
+    "phone_number": {
+      "first_phone": "555-6060",
+      "second_phone": "555-7070"
+    },
+    "type_of_use": "Personal"
+  },
+  {
+    "customer_id": 12,
+    "tz": "234561098",
+    "full_name": "Karen Johnson",
+    "email": "karen.johnson@example.com",
+    "phone_number": {
+      "first_phone": "555-8080"
+    },
+    "type_of_use": "Business"
+  },
+  {
+    "customer_id": 13,
+    "tz": "345672109",
+    "full_name": "Peter Smith",
+    "email": "peter.smith@example.com",
+    "phone_number": {
+      "first_phone": "555-1212",
+      "second_phone": "555-3434"
+    },
+    "type_of_use": "Personal"
+  },
+  {
+    "customer_id": 14,
+    "tz": "456783210",
+    "full_name": "Lisa Davis",
+    "email": "lisa.davis@example.com",
+    "phone_number": {
+      "first_phone": "555-5656"
+    },
+    "type_of_use": "Business"
+  },
+  {
+    "customer_id": 15,
+    "tz": "567894321",
+    "full_name": "James Lee",
+    "email": "james.lee@example.com",
+    "phone_number": {
+      "first_phone": "555-7676",
+      "second_phone": "555-9898"
+    },
+    "type_of_use": "Personal"
+  },
+  {
+    "customer_id": 16,
+    "tz": "678905432",
+    "full_name": "Samantha Johnson",
+    "email": "samantha.johnson@example.com",
+    "phone_number": {
+      "first_phone": "555-2323"
+    },
+    "type_of_use": "Business"
+  },
+  {
+    "customer_id": 17,
+    "tz": "789016543",
+    "full_name": "Kevin Brown",
+    "email": "kevin.brown@example.com",
+    "phone_number": {
+      "first_phone": "555-4545",
+      "second_phone": "555-6767"
+    },
+    "type_of_use": "Personal"
+  },
+  {
+    "customer_id": 18,
+    "tz": "890127654",
+    "full_name": "Emma Wilson",
+    "email": "emma.wilson@example.com",
+    "phone_number": {
+      "first_phone": "555-8989"
+    },
+    "type_of_use": "Business"
+  },
+  {
+    "customer_id": 19,
+    "tz": "901238765",
+    "full_name": "John Kim",
+    "email": "john.kim@example.com",
+    "phone_number": {
+      "first_phone": "555-2323",
+      "second_phone": "555-4545"
+    },
+    "type_of_use": "Personal"
+  }]

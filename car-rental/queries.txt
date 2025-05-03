@@ -1,0 +1,66 @@
+               **find**
+1.
+db.cars.find({
+manufacturer: "Toyota" ,
+day_price:{ $lt: 400 },
+year_of_produce:{$in:[2020,2019]}})
+
+
+2.
+db.cars.find({"car_detail.car_type":{"$ne":'Pickupl'}})
+
+3.
+db.rentals.find({ end_of_rental_period: { $gt: "2023-06-01" } })
+
+
+          **aggregate**
+4.
+db.cars.aggregate({
+	$group:{
+		_id:"$manufacturer",
+		cars_amount:{$count:{ }}}
+})
+
+5.
+db.cars.aggregate([{$match:{manufacturer:'BMV'}},{ $sort: {"day_price": -1}},{ $limit:  1}])
+
+6.
+db.car_damage.aggregate({ $project:{ cost_of_repair:1,damage:"$car_damage", _id:0 }})
+
+7.
+db.customers.updateOne(
+{  full_name: "Emma Wilson"},
+{
+$set:{"full_name":"chani.zaks"}})
+
+
+
+
+8.
+db.cars.updateMany(
+{ day_price:200},
+{
+$set:{ "day_price":250}
+}
+)
+
+9.
+
+db.customers.deleteOne( { tz: "678905432" } )
+
+10.
+db.cars.aggregate([
+  {
+    $lookup: {
+      from: "car_damage",
+      localField: "car_id",
+      foreignField: "car_id",
+      as: "theCars"
+    }
+  },
+  {
+    $project: {
+      car_id: 0
+    }
+  }
+])

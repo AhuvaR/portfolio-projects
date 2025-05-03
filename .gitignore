@@ -1,0 +1,31 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore .NET build files
+bin/
+obj/
+*.user
+*.suo
+
+# Ignore node modules if added
+node_modules/
+
+# Ignore environment files
+.env
+
+# Ignore database dump files
+*.sql
+*.bak
+*.json
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
