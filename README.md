@@ -8,7 +8,7 @@ These projects demonstrate my experience with a range of programming languages a
 
 ## 🚀 Projects Overview
 
-### 🎯 [Bull's Eye Game](./bulls-eye-game)
+### 🎯 [Bull's Eye Game](./bull's-eye-game)
 A web-based interactive game using HTML, CSS, and JavaScript. Includes a login page, high score system, and polished user experience.
 
 ### 🚗 [Car Rental System](./car-rental)
