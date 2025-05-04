@@ -12,6 +12,6 @@ A fun, interactive web game where players aim to hit the bull's-eye. Features in
 
 ## ▶️ How to Run
 1. Clone this repo
-2. Open `index.html` in a browser
+2. Open `log.html` in a browser
 
 Enjoy the game!
